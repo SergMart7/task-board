@@ -1,0 +1,42 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  .swim-lanes {
+    min-height: 60vh;
+  }
+  
+  .task-card {
+    margin: 0 auto;
+  }
+  
+  .task-card:hover {
+    cursor: grab;
+  }
+
+  /* CHANGES CARD COLOUR DEPENDING ON DUE DATE PROXIMITY (CLASS SET IN JS) */
+   
+  .bg-past-due {
+    background-color: #000000 !important;
+}
+
+  .bg-danger {
+    background-color: #dc3545 !important;
+}
+
+  .text-white {
+    color: #ffffff !important;
+}
+
+  .bg-warning {
+    background-color: #ffc107 !important;
+}
+
+  .text-dark {
+    color: #343a40 !important;
+}
+
+  .bg-success {
+    background-color: #28a745 !important;
+}
